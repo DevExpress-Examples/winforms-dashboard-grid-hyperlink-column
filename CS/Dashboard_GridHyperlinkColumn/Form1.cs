@@ -21,9 +21,11 @@ namespace Dashboard_GridHyperlinkColumn
             grid.DataSource = excelDataSource;
 
             // Creates two hyperlink columns: the first column takes hyperlinks from the underlying data source while the second 
-            // generates links based on the specified URI pattern and data source country names.
-            GridHyperlinkColumn hyperlinkColumn1 = new GridHyperlinkColumn(new Dimension("Uri"), new Dimension("OfficialName"));
-            GridHyperlinkColumn hyperlinkColumn2 = new GridHyperlinkColumn(new Dimension("Name"), new Dimension("OfficialName"));
+            // generates links based on the specified URI pattern and country names.
+            GridHyperlinkColumn hyperlinkColumn1 = new GridHyperlinkColumn(new Dimension("Name"));
+            hyperlinkColumn1.UriDataMember = "Link";
+            GridHyperlinkColumn hyperlinkColumn2 = new GridHyperlinkColumn(new Dimension("OfficialName"));
+            hyperlinkColumn2.UriDataMember = "Name";
             hyperlinkColumn2.UriPattern = "https://en.wikipedia.org/wiki/{0}";
 
             GridMeasureColumn gdpColumn = new GridMeasureColumn(new Measure("GDP"));
