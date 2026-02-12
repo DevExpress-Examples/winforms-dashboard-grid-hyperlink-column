@@ -25,7 +25,7 @@ This example demonstrates how to create two hyperlink columns in [Grid dashboar
 
 - [Dashboard for WinForms - How to Add a Grid Item to a Dashboard and Bind it to Data at Runtime](https://github.com/DevExpress-Examples/how-to-create-a-new-dashboard-add-a-grid-dashboard-item-to-it-and-bind-it-to-data-in-code-e4768)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-dashboard-grid-hyperlink-column&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-dashboard-grid-hyperlink-column&~~~was_helpful=no)
 
